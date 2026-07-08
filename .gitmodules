@@ -1,3 +1,6 @@
 [submodule "vendors/mattpocock"]
 	path = vendors/mattpocock
 	url = https://github.com/mattpocock/skills.git
+[submodule "vendors/tanweai"]
+	path = vendors/tanweai
+	url = https://github.com/tanweai/pua.git
