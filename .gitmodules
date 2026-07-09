@@ -1,12 +1,12 @@
 [submodule "vendors/mattpocock"]
-	path = vendors/mattpocock
+	path = vendors/mattpocock-skills
 	url = https://github.com/mattpocock/skills.git
 [submodule "vendors/tanweai"]
-	path = vendors/tanweai
+	path = vendors/tanweai-pua
 	url = https://github.com/tanweai/pua.git
 [submodule "vendors/obra"]
-	path = vendors/obra
+	path = vendors/obra-superpowers
 	url = https://github.com/obra/superpowers.git
 [submodule "vendors/microsoft"]
-	path = vendors/microsoft
+	path = vendors/microsoft-markitdown
 	url = https://github.com/microsoft/markitdown.git
