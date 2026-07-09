@@ -19,7 +19,7 @@ Welcome to the **AI Agent Skills Hub**!
 │   └── example-skill/       # 每个 Skill 作为一个独立文件夹，内部包含 SKILL.md 及相关资源。
 │
 ├── vendors/                 # 📦 第三方扩展区：通过 Git Submodule 引入的优秀开源 Skill 库。
-│   └── mattpocock/          # 例如：Matt Pocock 优秀的工程化 Prompt 集合。
+│   └── mattpocock-skills/   # 例如：Matt Pocock 优秀的工程化 Prompt 集合。
 │
 └── README.md                # 也就是你正在阅读的这份文档。
 ```
@@ -37,7 +37,7 @@ Welcome to the **AI Agent Skills Hub**!
 当你在社区发现优秀的 Prompt 集合时，**请不要直接复制代码**。请使用 `git submodule` 将其以外部模块的形式接入到 `vendors/` 目录下，以保持上游代码的同步更新：
 
 ```bash
-git submodule add <repository-url> vendors/<author-or-project-name>
+git submodule add <repository-url> vendors/<author>-<project-name>
 ```
 
 ### 3. 同步与更新第三方库
